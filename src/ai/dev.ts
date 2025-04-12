@@ -1,0 +1,1 @@
+import '@/ai/flows/receipt-to-expense.ts';

@@ -15,6 +15,7 @@ import { AddExpenseDialog } from '@/components/add-expense-dialog';
 import { ImportCsvDialog } from '@/components/import-csv-dialog';
 
 export default function Home() {
+  const currentYear = new Date().getFullYear();
   return (
     <SidebarProvider>
       <Sidebar>
@@ -48,7 +49,7 @@ export default function Home() {
           </SidebarMenu>
         </SidebarContent>
         <SidebarFooter>
-          <p>Footer</p>
+          <p>Copyright &copy; {currentYear} SpendWise </p>
         </SidebarFooter>
       </Sidebar>
       <Dashboard/>

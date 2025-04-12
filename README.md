@@ -22,7 +22,7 @@ npm run build
 4. Start exploring from localhost:
 
 ```
-npm run star
+npm run start
 ```
 
 ## 📚 Documentation

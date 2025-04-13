@@ -1,6 +1,6 @@
-# Firebase Studio
+# SpendWise
 
-This is a NextJS starter in Firebase Studio.
+A budgeting and expense tracking App developed using Nextjs / react / tailwindcss / typescript and genkit-cli.
 
 ## 🚀 Getting Started
 

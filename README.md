@@ -57,7 +57,7 @@ Firebase Documentation: [Effective Prompt](https://firebase.google.com/docs/stud
 https://github.com/user-attachments/assets/34ad9e91-78b6-4b2c-842a-c84f0262267e
 
 
-Note: It spun up a full prototype in under 2 minutes but its a give and take where i spent most of the time guiding the AI with clear prompts to avoid more errors. But hey, we got there in the end. 
+Note: Remember you have to guide the AI with clear prompts to avoid more errors. 
 
 The most challenging part was fixing the date error in the csv-parser.ts file which was expecting the date to be in the following format:  YYYY-MM-DD. And the CSV (Comma-Delimited) file would contain the expense data in DD-MM-YY format. This meant that both the CSV file and the parser.ts needed to be updated.  
 
